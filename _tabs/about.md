@@ -3,6 +3,16 @@
 icon: fas fa-info-circle
 order: 4
 ---
+> 关于**缇欧&咪西**本人：目前就读于华中师范大学计算机系软件工程本科，是一枚人菜瘾大的菜鸟。
+>
+> 建立该网站的初心：有一个固定的平台，可以集中存放个人的世界观设定的整合资料。
+>
+> 本网站也将不定期投放平时的学习、游戏等心得。
+{: .prompt-info}
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+> RPG游戏爱好者，动作苦手。目前是萌新型月厨，ns养老党（转战模拟器了QWQ）。
+>
+> FGO安卓bilibili服ID：100,149,563,574
+> 
+> ns好友编号：SW-7801-7641-6416
 {: .prompt-tip }
