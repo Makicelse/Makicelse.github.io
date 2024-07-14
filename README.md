@@ -8,7 +8,10 @@
 
 ~~（年轻人的页面就是要花里胡哨！）~~
 
-参考博客模板：https://github.com/NichtsHsu/nichtshsu.github.io
+参考博客模板：
+
+- https://github.com/NichtsHsu/nichtshsu.github.io  
+- [Chirpy Blog Customization | Huanyu Shi](https://huanyushi.github.io/posts/chirpy-blog-customization/#3-修改侧边栏样式)
 
 - [x] 404页面
 - [ ] 插入俺的P站主页链接
