@@ -22,12 +22,10 @@
   border-radius: 0 0 7px 7px;
 }
 
-// 设置网页背景图（之后记得改文字颜色）
-#main-wrapper {
-  background-image: url(https://cdn.jsdelivr.net/gh/huanyushi/huanyushi.github.io@main/assets/img/background.jpg);
-  background-size: cover; /* <- customize the image size */
-  background-repeat: no-repeat; /* <- no-repeat */
-  background-position: top; /* <- image position */
+.container {
+  background-image: url(https://cdn.jsdelivr.net/gh/Makicelse/image/img/background/202407160026217.png);
+  background-size: 100% auto; /* 宽度自适应，图片长宽比不变 ———— > 偏长的手机背景图最适合*/
+  // background-repeat: no-repeat; /* 不设置cover和no-repeat，以免图片因文章过长而被拉伸过大，影响美观 */
 }
 
 // 网页背景图我实在调不了透明度，于是耍赖（不是）————效果不是很满意，后续再说
