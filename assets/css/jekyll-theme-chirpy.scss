@@ -8,3 +8,41 @@
 ';
 
 /* append your custom style below */
+
+// /* 侧边栏背景图片添加 */
+// #sidebar {
+//   background-image: url(https://cdn.jsdelivr.net/gh/huanyushi/huanyushi.github.io@main/assets/img/background.jpg); /* <- change background image */
+//   background-size: cover; /* <- customize the image size */
+//   background-repeat: no-repeat; /* <- no-repeat */
+//   background-position: top; /* <- image position */
+// }
+
+#topbar-wrapper {
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 0 0 7px 7px;
+}
+
+// 设置网页背景图（之后记得改文字颜色）
+#main-wrapper {
+  background-image: url(https://cdn.jsdelivr.net/gh/huanyushi/huanyushi.github.io@main/assets/img/background.jpg);
+  background-size: cover; /* <- customize the image size */
+  background-repeat: no-repeat; /* <- no-repeat */
+  background-position: top; /* <- image position */
+}
+
+// 网页背景图我实在调不了透明度，于是耍赖（不是）————效果不是很满意，后续再说
+#post-list, .px-1 {
+  background: rgba(0, 0, 0, 0.65);
+  padding: 15px 0;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.post-navigation {
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+
+footer {
+  padding: 15px;
+}
