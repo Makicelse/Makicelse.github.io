@@ -22,10 +22,14 @@
   border-radius: 0 0 7px 7px;
 }
 
-.container {
+#main-wrapper {
   background-image: url(https://cdn.jsdelivr.net/gh/Makicelse/image/img/background/202407160026217.png);
   background-size: 100% auto; /* 宽度自适应，图片长宽比不变 ———— > 偏长的手机背景图最适合*/
   // background-repeat: no-repeat; /* 不设置cover和no-repeat，以免图片因文章过长而被拉伸过大，影响美观 */
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 // 网页背景图我实在调不了透明度，于是耍赖（不是）————效果不是很满意，后续再说

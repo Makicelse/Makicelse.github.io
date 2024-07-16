@@ -15,13 +15,13 @@
 - [x] 404页面
 - [ ] 替换图标
   - [ ] 文章底部分享链接的图标
-  - [ ] 插入个人P站链接
+  - [ ] 在个人about页面中插入P站等社交链接
 - [ ] 网站背景
   - [x] 背景自定义
-  - [ ] 背景半透明（灵感：vscode的[background插件](https://github.com/shalldie/vscode-background)；但暂时未实现其半透明效果）
+  - [x] 背景半透明（灵感：vscode的[background插件](https://github.com/shalldie/vscode-background)；但暂时未实现其半透明效果）
   - [ ] 幻灯片式播放
   - [ ] 随网页明暗主题转换样式
-- [ ] 鼠标点击特效
 - [ ] 鼠标指针
-- [ ] js特效
+  - [ ] 样式
+  - [ ] 点击特效
 - [ ] and more……
