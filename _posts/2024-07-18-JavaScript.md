@@ -1,7 +1,7 @@
 ---
 title: JavaScript知识收集
 date: 2024-07-18 01:49:00 +0800
-categories: [计算机学习, 前端基础]
+categories: [计算机学习, 前端 | 基础]
 tags: [前端]
 ---
 
