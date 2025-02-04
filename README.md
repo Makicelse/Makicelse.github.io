@@ -4,7 +4,7 @@
 
 ![](https://cdn.jsdelivr.net/gh/Makicelse/image/img/202402192005865.jpg)
 
-### 暑期博客魔改计划！
+### 【已搁置】暑期博客魔改计划！
 
 ~~（年轻人的页面就是要花里胡哨！）~~
 
