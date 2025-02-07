@@ -14,32 +14,36 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 缇欧&咪西 # the main title
+title: 茉莉乌龙馆 # the main title
 
 tagline: 个人博客&档案馆です。 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
    一个默默无闻的小网站。
+
+# Fill in the protocol & hostname for your site.
+# E.g. 'https://username.github.io', note that it does not end with a '/'.
+url: "https://makicelse.github.io"
+
+github:
+  username: Makicelse # change to your GitHub username
+
+twitter:
+  username:  # change to your Twitter username
+
+social:
+  # Change to your full name.
+  # It will be displayed as the default author of the posts and the copyright owner in the Footer
+  name: 缇欧&咪西
+  email: miaoa720@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # https://twitter.com/username # change to your twitter homepage # 没有推特就注释掉（其实是我推特被禁了）
-    - https://github.com/Makicelse # change to your github homepage
+    - https://twitter.com/username # change to your Twitter homepage
+    - https://github.com/username # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
     # - https://www.pixiv.net/users/24058657
-
-# google_site_verification: # fill in to your verification string
-# =======
-#   name: your_full_name
-#   email: example@domain.com # change to your email address
-#   links:
-#     # The first element serves as the copyright owner's link
-#     - https://twitter.com/username # change to your Twitter homepage
-#     - https://github.com/username # change to your GitHub homepage
-#     # Uncomment below to add more social links
-#     # - https://www.facebook.com/username
-#     # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
 webmaster_verifications:
@@ -53,8 +57,26 @@ webmaster_verifications:
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-google_analytics:
-  id: G-X0V6G7CW7K # fill in your Google Analytics ID
+# Web Analytics Settings
+analytics:
+  google:
+    id: G-X0V6G7CW7K # fill in your Google Analytics ID
+  goatcounter:
+    id: # fill in your GoatCounter ID
+  umami:
+    id: # fill in your Umami ID
+    domain: # fill in your Umami domain
+  matomo:
+    id: # fill in your Matomo ID
+    domain: # fill in your Matomo domain
+  cloudflare:
+    id: # fill in your Cloudflare Web Analytics token
+  fathom:
+    id: # fill in your Fathom Site ID
+
+# Page views settings
+pageviews:
+  provider: # now only supports 'goatcounter'
 
 # Prefer color scheme setting.
 #
