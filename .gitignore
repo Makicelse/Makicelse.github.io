@@ -24,4 +24,5 @@ package-lock.json
 
 # Misc
 _sass/vendors
-assets/js/dist
+# assets/js/dist/*.min.js 是构建产物，本项目不使用自动构建，手动提交即可
+
