@@ -89,7 +89,17 @@
             rel="{{ link_types }}"
           {% endunless %}
         >
-          <i class="{{ entry.icon }}"></i>
+          <!-- <i class="{{ entry.icon }}"></i> -->
+
+          <!-- 引入自定义 SVG 图标 -->
+          {% if entry.icon contains 'custom-' %}
+            <svg class="icon" aria-hidden="true">
+               <use xlink:href="#{{ entry.icon }}"></use>
+            </svg>
+          {% else %}
+            <i class="{{ entry.icon }}"></i>
+          {% endif %}
+
         </a>
       {% endif %}
     {% endfor %}
