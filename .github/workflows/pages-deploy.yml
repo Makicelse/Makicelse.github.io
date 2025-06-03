@@ -47,8 +47,11 @@ jobs:
 
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
+        # env:
+        #   JEKYLL_ENV: "production"
+        # production 构建样式有误，但暂时没debug出来，就先改用回 development 模式（试试）
         env:
-          JEKYLL_ENV: "production"
+          JEKYLL_ENV: "development"
 
       # - name: Test site
       #   run: |
